@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cps"
+        android:text="CPS: 0"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/cpm"
+        android:text="CPM: 0"
+        android:textSize="28sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:text="Use com a câmera totalmente tampada"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
